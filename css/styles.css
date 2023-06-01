@@ -14,4 +14,16 @@ body {
 .box img {
   border: 3px solid blue;
   border-radius: 10%;
+  width: 80%;
+
+}
+
+@media screen and (max-width: 480px) {
+  .box {
+    float: none;
+    background-color: aquamarine;
+  }
+  .box img {
+    width: 80%;
+  }
 }
