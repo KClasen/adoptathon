@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+}
+
+.box {
+  background-color: lightblue;
+  width: 31%;
+  box-sizing: content-box;
+  float: left;
+  border: 5px solid blue;
+  border-radius: 10%;
+}
+
+.box img {
+  border: 3px solid blue;
+  border-radius: 10%;
+}
